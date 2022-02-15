@@ -1,0 +1,259 @@
+Script iniciado en 2022-01-27 10:24:50+01:00 [TERM="xterm-256color" TTY="/dev/pts/56" COLUMNS="143" LINES="33"]
+]0;dcarrete@simba: ~[01;32mdcarrete@simba[00m:[01;34m~[00m$ git clone /srv/git/prpa
+Clonando en 'prpa'...
+hecho.
+]0;dcarrete@simba: ~[01;32mdcarrete@simba[00m:[01;34m~[00m$ cd inf-mat_17-18[K[K[K[K[K[K[K[K[K[K[K[K[K[K r[Kprpa
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ mkdir datos_00.txt
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ git add datos_00[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add datos_00.txt
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ git t[K[K init datos_00.txt
+Inicializado repositorio Git vacío en /home/dcarrete/prpa/datos_00.txt/.git/
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ cd [K[K[Kgid add
+bash: gid: orden no encontrada
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ git add
+Nada especificado, nada agregado.
+Tal vez quiso decir 'git add .'?
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ git add datos==_[K[K[K00_[K[C_00[C[C.txt
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ git commit
+En la rama master
+Tu rama está actualizada con 'origin/master'.
+
+nada para hacer commit, el árbol de trabajo está limpio
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ git commit[K[K[K[K[K[Kpush
+To /srv/git/prpa
+ [31m! [rejected]       [m master -> master (fetch first)
+[31merror: falló el push de algunas referencias a '/srv/git/prpa'
+[m[33mayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que[m
+[33mayuda: no existe localmente. Esto es causado usualmente por otro repositorio [m
+[33mayuda: realizando push a la misma ref. Quizás quiera integrar primero los cambios[m
+[33mayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.[m
+[33mayuda: Vea 'Notes about fast-forwards0 en 'git push --help' para detalles.[m
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ git pull
+remote: Enumerando objetos: 33, listo.[K
+remote: Contando objetos:   3% (1/33)   [Kremote: Contando objetos:   6% (2/33)   [Kremote: Contando objetos:   9% (3/33)   [Kremote: Contando objetos:  12% (4/33)   [Kremote: Contando objetos:  15% (5/33)   [Kremote: Contando objetos:  18% (6/33)   [Kremote: Contando objetos:  21% (7/33)   [Kremote: Contando objetos:  24% (8/33)   [Kremote: Contando objetos:  27% (9/33)   [Kremote: Contando objetos:  30% (10/33)   [Kremote: Contando objetos:  33% (11/33)   [Kremote: Contando objetos:  36% (12/33)   [Kremote: Contando objetos:  39% (13/33)   [Kremote: Contando objetos:  42% (14/33)   [Kremote: Contando objetos:  45% (15/33)   [Kremote: Contando objetos:  48% (16/33)   [Kremote: Contando objetos:  51% (17/33)   [Kremote: Contando objetos:  54% (18/33)   [Kremote: Contando objetos:  57% (19/33)   [Kremote: Contando objetos:  60% (20/33)   [Kremote: Contando objetos:  63% (21/33)   [Kremote: Contando objetos:  66% (22/33)   [Kremote: Contando objetos:  69% (23/33)   [Kremote: Contando objetos:  72% (24/33)   [Kremote: Contando objetos:  75% (25/33)   [Kremote: Contando objetos:  78% (26/33)   [Kremote: Contando objetos:  81% (27/33)   [Kremote: Contando objetos:  84% (28/33)   [Kremote: Contando objetos:  87% (29/33)   [Kremote: Contando objetos:  90% (30/33)   [Kremote: Contando objetos:  93% (31/33)   [Kremote: Contando objetos:  96% (32/33)   [Kremote: Contando objetos: 100% (33/33)   [Kremote: Contando objetos: 100% (33/33), listo.[K
+remote: Comprimiendo objetos:   3% (1/30)   [Kremote: Comprimiendo objetos:   6% (2/30)   [Kremote: Comprimiendo objetos:  10% (3/30)   [Kremote: Comprimiendo objetos:  13% (4/30)   [Kremote: Comprimiendo objetos:  16% (5/30)   [Kremote: Comprimiendo objetos:  20% (6/30)   [Kremote: Comprimiendo objetos:  23% (7/30)   [Kremote: Comprimiendo objetos:  26% (8/30)   [Kremote: Comprimiendo objetos:  30% (9/30)   [Kremote: Comprimiendo objetos:  33% (10/30)   [Kremote: Comprimiendo objetos:  36% (11/30)   [Kremote: Comprimiendo objetos:  40% (12/30)   [Kremote: Comprimiendo objetos:  43% (13/30)   [Kremote: Comprimiendo objetos:  46% (14/30)   [Kremote: Comprimiendo objetos:  50% (15/30)   [Kremote: Comprimiendo objetos:  53% (16/30)   [Kremote: Comprimiendo objetos:  56% (17/30)   [Kremote: Comprimiendo objetos:  60% (18/30)   [Kremote: Comprimiendo objetos:  63% (19/30)   [Kremote: Comprimiendo objetos:  66% (20/30)   [Kremote: Comprimiendo objetos:  70% (21/30)   [Kremote: Comprimiendo objetos:  73% (22/30)   [Kremote: Comprimiendo objetos:  76% (23/30)   [Kremote: Comprimiendo objetos:  80% (24/30)   [Kremote: Comprimiendo objetos:  83% (25/30)   [Kremote: Comprimiendo objetos:  86% (26/30)   [Kremote: Comprimiendo objetos:  90% (27/30)   [Kremote: Comprimiendo objetos:  93% (28/30)   [Kremote: Comprimiendo objetos:  96% (29/30)   [Kremote: Comprimiendo objetos: 100% (30/30)   [Kremote: Comprimiendo objetos: 100% (30/30), listo.[K
+remote: Total 32 (delta 12), reusado 2 (delta 0)[K
+Desempaquetando objetos:   3% (1/32)   Desempaquetando objetos:   6% (2/32)   Desempaquetando objetos:   9% (3/32)   Desempaquetando objetos:  12% (4/32)   Desempaquetando objetos:  15% (5/32)   Desempaquetando objetos:  18% (6/32)   Desempaquetando objetos:  21% (7/32)   Desempaquetando objetos:  25% (8/32)   Desempaquetando objetos:  28% (9/32)   Desempaquetando objetos:  31% (10/32)   Desempaquetando objetos:  34% (11/32)   Desempaquetando objetos:  37% (12/32)   Desempaquetando objetos:  40% (13/32)   Desempaquetando objetos:  43% (14/32)   Desempaquetando objetos:  46% (15/32)   Desempaquetando objetos:  50% (16/32)   Desempaquetando objetos:  53% (17/32)   Desempaquetando objetos:  56% (18/32)   Desempaquetando objetos:  59% (19/32)   Desempaquetando objetos:  62% (20/32)   Desempaquetando objetos:  65% (21/32)   Desempaquetando objetos:  68% (22/32)   Desempaquetando objetos:  71% (23/32)   Desempaquetando objetos:  75% (24/32)   Desempaquetando objetos:  78% (25/32)   Desempaquetando objetos:  81% (26/32)   Desempaquetando objetos:  84% (27/32)   Desempaquetando objetos:  87% (28/32)   Desempaquetando objetos:  90% (29/32)   Desempaquetando objetos:  93% (30/32)   Desempaquetando objetos:  96% (31/32)   Desempaquetando objetos: 100% (32/32)   Desempaquetando objetos: 100% (32/32), listo.
+Desde /srv/git/prpa
+   38bf265..0b8b800  master     -> origin/master
+ * [nueva rama]      main       -> origin/main
+Actualizando 38bf265..0b8b800
+Fast-forward
+ datos12.txt  | 0
+ datos_08.txt | 0
+ datos_14.txt | 0
+ datos_16.txt | 0
+ datos_18.txt | 0
+ 5 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 datos12.txt
+ create mode 100644 datos_08.txt
+ create mode 100644 datos_14.txt
+ create mode 100644 datos_16.txt
+ create mode 100644 datos_18.txt
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ 
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ git status
+En la rama master
+Tu rama está actualizada con 'origin/master'.
+
+nada para hacer commit, el árbol de trabajo está limpio
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ ls datos_00.txt
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ ls examenes
+[0m[01;34menero_2018[0m  [01;34mfeb[0m
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ rm [K[K[Kls just
+ls: no se puede acceder a 'just': No existe el fichero o el directorio
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ no entiendo nada
+bash: no: orden no encontrada
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ umask 0002
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ rm just
+rm: no se puede borrar 'just': No existe el fichero o el directorio
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ 
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ rm just_ene.aux
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ rm just_ene.log
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ rm just_ene.pdf
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ rm.just[K[K[K[K[K just_ene.synctex.gz
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ rm just_ene.tex
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ cp dato_00.txt [C[1@s[C[C[C[C[C[C[1P[1P [1P[1P[1P[1P[1P[1P[1P [1P[1P[C[1P e j e m p l o s [C [C [Ke j e m p l o s _ n e w 
+cp: -r not specified; omitting directory 'ejemplos'
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ cp ejemplos ejemplos_new [1@-[1@r[1@ 
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ cd ejemplos_new
+]0;dcarrete@simba: ~/prpa/ejemplos_new[01;32mdcarrete@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cp -r escudo.png ejemplos
+cp: no se puede efectuar `stat' sobre 'escudo.png': No existe el fichero o el directorio
+]0;dcarrete@simba: ~/prpa/ejemplos_new[01;32mdcarrete@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cp -r escudo.png ejemplos[C[C[C[C[1P[1P[1P
+cp: no se puede efectuar `stat' sobre 'escudo.png': No existe el fichero o el directorio
+]0;dcarrete@simba: ~/prpa/ejemplos_new[01;32mdcarrete@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cp escudo.png ejemplos[C[C[3@-r [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pd ejemplos_newp -r escudo.png ejemplos[10Pd ejemplos_newp -r ejemplos ejemplos_new [13Pd ejemplos_newp -r ejemplos ejemplos_new [C[13Pd ejemplos_newp -r escudo.png ejemplos[C[C[C[C[C[1P[1P[1P[C[1@/[1@p[1@r[1@p[1@a[12Pd ejemplos_newAp -r ejemplos ejemplos_new [12Pd ejemplos_newAp /prpaescudo.png ejemplos[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd prpa
+bash: cd: prpa: No existe el fichero o el directorio
+]0;dcarrete@simba: ~/prpa/ejemplos_new[01;32mdcarrete@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cd prpa
+bash: cd: prpa: No existe el fichero o el directorio
+]0;dcarrete@simba: ~/prpa/ejemplos_new[01;32mdcarrete@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cd prpap escudo.png ejemplos[1@/[1@p[1@r[1@p[1@a[1@/
+cp: no se puede efectuar `stat' sobre '/prpa/escudo.png': No existe el fichero o el directorio
+]0;dcarrete@simba: ~/prpa/ejemplos_new[01;32mdcarrete@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cd..
+bash: cd..: orden no encontrada
+]0;dcarrete@simba: ~/prpa/ejemplos_new[01;32mdcarrete@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cd ..
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ cd ..
+]0;dcarrete@simba: ~[01;32mdcarrete@simba[00m:[01;34m~[00m$ cd prpr[Ka
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ ls -a
+[0m[01;34m.[0m   [01;34mauto[0m          datos_08.txt  datos_14.txt  datos_18.txt  [01;34mejemplos[0m      [01;34mejercicios[0m  [01;34mestilo[0m    [01;34m.git[0m     [01;34mnotebook[0m   [01;34mproblemas[0m
+[01;34m..[0m  [01;34mdatos_00.txt[0m  datos12.txt   datos_16.txt  datos.txt     [01;34mejemplos_new[0m  [01;35mescudo.png[0m  [01;34mexamenes[0m  [01;34mipython[0m  [01;34mpracticas[0m
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ cat datos_00.txt
+cat: datos_00.txt: Es un directorio
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ cat 
+
+
+d
+d
+
+
+;
+;
+cd
+cd
+
+
+
+
+
+
+
+
+.
+.
+ewvew
+ewvew
+
+
+
+
+e
+e
+
+
+end
+end
+
+
+break
+break
+cd
+cd
+cd
+cd
+clear
+clear
+^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[B^[[B^[[B^[[A^[[A^[[A^[[A^[[A^[[A^[[D^[[D^[[C^[[A^[[D^[[B^[[A^[[D^[[C^[[A^[[D^[[B^[[C^[[A^[[D^[[B
+[A[A[A[A[A[A[B[B[B[B[B[B[A[A[A[A[A[A[D[D[C[A[D[B[A[D[C[A[D[B[C[A[D[B
+^[[C^[[C^[[C^[[D
+[C[C[C[D
+
+
+^[[B^[[A^[[D^[[C^[[A^[[B^[[A^[[D^[[A
+[B[A[D[C[A[B[A[D[A
+
+
+
+
+
+
+
+
+
+
+
+
+.
+.
+datos_00.txt
+datos_00.txt
+
+
+
+
+.
+.
+script sesion.txt
+script sesion.txt
+
+
+
+
+^C
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ script sesion.txt
+Script iniciado; el fichero es sesion.txt
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ ls //[Ksrv/git/prpa
+[0m[01;34mbranches[0m  config  description  HEAD  [01;34mhooks[0m  [01;34minfo[0m  [01;34mobjects[0m  [01;34mrefs[0m
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ cd [K[K[Kpwd
+/home/dcarrete/prpa
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ cr[Kd/srv/git/prpa /srv/git/prpa
+]0;dcarrete@simba: /srv/git/prpa[01;32mdcarrete@simba[00m:[01;34m/srv/git/prpa[00m$ ls
+[0m[01;34mbranches[0m  config  description  HEAD  [01;34mhooks[0m  [01;34minfo[0m  [01;34mobjects[0m  [01;34mrefs[0m
+]0;dcarrete@simba: /srv/git/prpa[01;32mdcarrete@simba[00m:[01;34m/srv/git/prpa[00m$ prpa[K[K[K[Kgit status
+fatal: esta operación debe ser realizada en un árbol de trabajo
+]0;dcarrete@simba: /srv/git/prpa[01;32mdcarrete@simba[00m:[01;34m/srv/git/prpa[00m$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+Estos son comandos comunes de Git usados en varias situaciones:
+
+comienza un área de trabajo (ver también: git help tutorial)
+   clone      Clona un repositorio dentro de un nuevo directorio
+   init       Crea un repositorio de Git vacío o reinicia el que ya existe
+
+trabaja en los cambios actuales (ver también: git help everyday)
+   add        Agrega contenido de carpetas al índice
+   mv         Mueve o cambia el nombre a archivos, directorios o enlaces simbólicos
+   reset      Reinicia el HEAD actual a un estado especifico
+   rm         Borra archivos del árbol de trabajo y del índice
+
+examina el historial y el estado (ver también: git help revisions)
+   bisect     Use la búsqueda binaria para encontrar el commit que introdujo el bug
+   grep       Imprime las líneas que concuerdan con el patron
+   log        Muestra los logs de los commits
+   show       Muestra varios tipos de objetos
+   status     Muestra el estado del árbol de trabajo
+
+crece, marca y ajusta tu historial común
+   branch     Lista, crea, o borra ramas
+   checkout    Cambia ramas o restaura los archivos de tu árbol de trabajo
+   commit     Graba los cambios en tu repositorio
+   diff       Muestra los cambios entre commits, commit y árbol de trabajo, etc
+   merge      Junta dos o mas historiales de desarrollo juntos
+   rebase     Vuelve a aplicar commits en la punta de otra rama
+   tag        Crea, lista, borra o verifica un tag de objeto firmado con GPG
+
+colabora (mira también: git help workflows)
+   fetch      Descarga objetos y referencias de otro repositorio
+   pull       Realiza un fetch e integra con otro repositorio o rama local
+   push       Actualiza referencias remotas junto con sus objetos asociados
+
+'git help -a' y 'git help -g' listan los subcomandos disponibles y algunas
+guías de concepto. Consulte 'git help <command>' o 'git help <concepto>'
+para leer sobre un subcomando o concepto específico.
+]0;dcarrete@simba: /srv/git/prpa[01;32mdcarrete@simba[00m:[01;34m/srv/git/prpa[00m$ cd /prpa
+bash: cd: /prpa: No existe el fichero o el directorio
+]0;dcarrete@simba: /srv/git/prpa[01;32mdcarrete@simba[00m:[01;34m/srv/git/prpa[00m$ cd 
+]0;dcarrete@simba: ~[01;32mdcarrete@simba[00m:[01;34m~[00m$ cd /prpa[K[K[K[K[Kprpa
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ [K]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ [K]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ [K]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ [K]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ [K]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ touch datos_00.txt
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ git a[K[K[K[K[K
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ g[Kls
+[0m[01;34mauto[0m          datos_08.txt  datos_14.txt  datos_18.txt  [01;34mejemplos[0m      [01;34mejercicios[0m  [01;34mestilo[0m    [01;34mipython[0m   [01;34mpracticas[0m  sesion.txt
+[01;34mdatos_00.txt[0m  datos12.txt   datos_16.txt  datos.txt     [01;34mejemplos_new[0m  [01;35mescudo.png[0m  [01;34mexamenes[0m  [01;34mnotebook[0m  [01;34mproblemas[0m
+]0;dcarrete@simba: ~/prpa[01;32mdcarrete@simba[00m:[01;34m~/prpa[00m$ git add[K[K[Kpull
+remote: Enumerando objetos: 151, listo.[K
+remote: Contando objetos:   0% (1/151)   [Kremote: Contando objetos:   1% (2/151)   [Kremote: Contando objetos:   2% (4/151)   [Kremote: Contando objetos:   3% (5/151)   [Kremote: Contando objetos:   4% (7/151)   [Kremote: Contando objetos:   5% (8/151)   [Kremote: Contando objetos:   6% (10/151)   [Kremote: Contando objetos:   7% (11/151)   [Kremote: Contando objetos:   8% (13/151)   [Kremote: Contando objetos:   9% (14/151)   [Kremote: Contando objetos:  10% (16/151)   [Kremote: Contando objetos:  11% (17/151)   [Kremote: Contando objetos:  12% (19/151)   [Kremote: Contando objetos:  13% (20/151)   [Kremote: Contando objetos:  14% (22/151)   [Kremote: Contando objetos:  15% (23/151)   [Kremote: Contando objetos:  16% (25/151)   [Kremote: Contando objetos:  17% (26/151)   [Kremote: Contando objetos:  18% (28/151)   [Kremote: Contando objetos:  19% (29/151)   [Kremote: Contando objetos:  20% (31/151)   [Kremote: Contando objetos:  21% (32/151)   [Kremote: Contando objetos:  22% (34/151)   [Kremote: Contando objetos:  23% (35/151)   [Kremote: Contando objetos:  24% (37/151)   [Kremote: Contando objetos:  25% (38/151)   [Kremote: Contando objetos:  26% (40/151)   [Kremote: Contando objetos:  27% (41/151)   [Kremote: Contando objetos:  28% (43/151)   [Kremote: Contando objetos:  29% (44/151)   [Kremote: Contando objetos:  30% (46/151)   [Kremote: Contando objetos:  31% (47/151)   [Kremote: Contando objetos:  32% (49/151)   [Kremote: Contando objetos:  33% (50/151)   [Kremote: Contando objetos:  34% (52/151)   [Kremote: Contando objetos:  35% (53/151)   [Kremote: Contando objetos:  36% (55/151)   [Kremote: Contando objetos:  37% (56/151)   [Kremote: Contando objetos:  38% (58/151)   [Kremote: Contando objetos:  39% (59/151)   [Kremote: Contando objetos:  40% (61/151)   [Kremote: Contando objetos:  41% (62/151)   [Kremote: Contando objetos:  42% (64/151)   [Kremote: Contando objetos:  43% (65/151)   [Kremote: Contando objetos:  44% (67/151)   [Kremote: Contando objetos:  45% (68/151)   [Kremote: Contando objetos:  46% (70/151)   [Kremote: Contando objetos:  47% (71/151)   [Kremote: Contando objetos:  48% (73/151)   [Kremote: Contando objetos:  49% (74/151)   [Kremote: Contando objetos:  50% (76/151)   [Kremote: Contando objetos:  51% (78/151)   [Kremote: Contando objetos:  52% (79/151)   [Kremote: Contando objetos:  53% (81/151)   [Kremote: Contando objetos:  54% (82/151)   [Kremote: Contando objetos:  55% (84/151)   [Kremote: Contando objetos:  56% (85/151)   [Kremote: Contando objetos:  57% (87/151)   [Kremote: Contando objetos:  58% (88/151)   [Kremote: Contando objetos:  59% (90/151)   [Kremote: Contando objetos:  60% (91/151)   [Kremote: Contando objetos:  61% (93/151)   [Kremote: Contando objetos:  62% (94/151)   [Kremote: Contando objetos:  63% (96/151)   [Kremote: Contando objetos:  64% (97/151)   [Kremote: Contando objetos:  65% (99/151)   [Kremote: Contando objetos:  66% (100/151)   [Kremote: Contando objetos:  67% (102/151)   [Kremote: Contando objetos:  68% (103/151)   [Kremote: Contando objetos:  69% (105/151)   [Kremote: Contando objetos:  70% (106/151)   [Kremote: Contando objetos:  71% (108/151)   [Kremote: Contando objetos:  72% (109/151)   [Kremote: Contando objetos:  73% (111/151)   [Kremote: Contando objetos:  74% (112/151)   [Kremote: Contando objetos:  75% (114/151)   [Kremote: Contando objetos:  76% (115/151)   [Kremote: Contando objetos:  77% (117/151)   [Kremote: Contando objetos:  78% (118/151)   [Kremote: Contando objetos:  79% (120/151)   [Kremote: Contando objetos:  80% (121/151)   [Kremote: Contando objetos:  81% (123/151)   [Kremote: Contando objetos:  82% (124/151)   [Kremote: Contando objetos:  83% (126/151)   [Kremote: Contando objetos:  84% (127/151)   [Kremote: Contando objetos:  85% (129/151)   [Kremote: Contando objetos:  86% (130/151)   [Kremote: Contando objetos:  87% (132/151)   [Kremote: Contando objetos:  88% (133/151)   [Kremote: Contando objetos:  89% (135/151)   [Kremote: Contando objetos:  90% (136/151)   [Kremote: Contando objetos:  91% (138/151)   [Kremote: Contando objetos:  92% (139/151)   [Kremote: Contando objetos:  93% (141/151)   [Kremote: Contando objetos:  94% (142/151)   [Kremote: Contando objetos:  95% (144/151)   [Kremote: Contando objetos:  96% (145/151)   [Kremote: Contando objetos:  97% (147/151)   [Kremote: Contando objetos:  98% (148/151)   [Kremote: Contando objetos:  99% (150/151)   [Kremote: Contando objetos: 100% (151/151)   [Kremote: Contando objetos: 100% (151/151), listo.[K
+remote: Comprimiendo objetos:   0% (1/144)   [Kremote: Comprimiendo objetos:   1% (2/144)   [Kremote: Comprimiendo objetos:   2% (3/144)   [Kremote: Comprimiendo objetos:   3% (5/144)   [Kremote: Comprimiendo objetos:   4% (6/144)   [Kremote: Comprimiendo objetos:   5% (8/144)   [Kremote: Comprimiendo objetos:   6% (9/144)   [Kremote: Comprimiendo objetos:   7% (11/144)   [Kremote: Comprimiendo objetos:   8% (12/144)   [Kremote: Comprimiendo objetos:   9% (13/144)   [Kremote: Comprimiendo objetos:  10% (15/144)   [Kremote: Comprimiendo objetos:  11% (16/144)   [Kremote: Comprimiendo objetos:  12% (18/144)   [Kremote: Comprimiendo objetos:  13% (19/144)   [Kremote: Comprimiendo objetos:  14% (21/144)   [Kremote: Comprimiendo objetos:  15% (22/144)   [Kremote: Comprimiendo objetos:  16% (24/144)   [Kremote: Comprimiendo objetos:  17% (25/144)   [Kremote: Comprimiendo objetos:  18% (26/144)   [Kremote: Comprimiendo objetos:  19% (28/144)   [Kremote: Comprimiendo objetos:  20% (29/144)   [Kremote: Comprimiendo objetos:  21% (31/144)   [Kremote: Comprimiendo objetos:  22% (32/144)   [Kremote: Comprimiendo objetos:  23% (34/144)   [Kremote: Comprimiendo objetos:  24% (35/144)   [Kremote: Comprimiendo objetos:  25% (36/144)   [Kremote: Comprimiendo objetos:  26% (38/144)   [Kremote: Comprimiendo objetos:  27% (39/144)   [Kremote: Comprimiendo objetos:  28% (41/144)   [Kremote: Comprimiendo objetos:  29% (42/144)   [Kremote: Comprimiendo objetos:  30% (44/144)   [Kremote: Comprimiendo objetos:  31% (45/144)   [Kremote: Comprimiendo objetos:  32% (47/144)   [Kremote: Comprimiendo objetos:  33% (48/144)   [Kremote: Comprimiendo objetos:  34% (49/144)   [Kremote: Comprimiendo objetos:  35% (51/144)   [Kremote: Comprimiendo objetos:  36% (52/144)   [Kremote: Comprimiendo objetos:  37% (54/144)   [Kremote: Comprimiendo objetos:  38% (55/144)   [Kremote: Comprimiendo objetos:  39% (57/144)   [Kremote: Comprimiendo objetos:  40% (58/144)   [Kremote: Comprimiendo objetos:  41% (60/144)   [Kremote: Comprimiendo objetos:  42% (61/144)   [Kremote: Comprimiendo objetos:  43% (62/144)   [Kremote: Comprimiendo objetos:  44% (64/144)   [Kremote: Comprimiendo objetos:  45% (65/144)   [Kremote: Comprimiendo objetos:  46% (67/144)   [Kremote: Comprimiendo objetos:  47% (68/144)   [Kremote: Comprimiendo objetos:  48% (70/144)   [Kremote: Comprimiendo objetos:  49% (71/144)   [Kremote: Comprimiendo objetos:  50% (72/144)   [Kremote: Comprimiendo objetos:  51% (74/144)   [Kremote: Comprimiendo objetos:  52% (75/144)   [Kremote: Comprimiendo objetos:  53% (77/144)   [Kremote: Comprimiendo objetos:  54% (78/144)   [Kremote: Comprimiendo objetos:  55% (80/144)   [Kremote: Comprimiendo objetos:  56% (81/144)   [Kremote: Comprimiendo objetos:  57% (83/144)   [Kremote: Comprimiendo objetos:  58% (84/144)   [Kremote: Comprimiendo objetos:  59% (85/144)   [Kremote: Comprimiendo objetos:  60% (87/144)   [Kremote: Comprimiendo objetos:  61% (88/144)   [Kremote: Comprimiendo objetos:  62% (90/144)   [Kremote: Comprimiendo objetos:  63% (91/144)   [Kremote: Comprimiendo objetos:  64% (93/144)   [Kremote: Comprimiendo objetos:  65% (94/144)   [Kremote: Comprimiendo objetos:  66% (96/144)   [Kremote: Comprimiendo objetos:  67% (97/144)   [Kremote: Comprimiendo objetos:  68% (98/144)   [Kremote: Comprimiendo objetos:  69% (100/144)   [Kremote: Comprimiendo objetos:  70% (101/144)   [Kremote: Comprimiendo objetos:  71% (103/144)   [Kremote: Comprimiendo objetos:  72% (104/144)   [Kremote: Comprimiendo objetos:  73% (106/144)   [Kremote: Comprimiendo objetos:  74% (107/144)   [Kremote: Comprimiendo objetos:  75% (108/144)   [Kremote: Comprimiendo objetos:  76% (110/144)   [Kremote: Comprimiendo objetos:  77% (111/144)   [Kremote: Comprimiendo objetos:  78% (113/144)   [Kremote: Comprimiendo objetos:  79% (114/144)   [Kremote: Comprimiendo objetos:  80% (116/144)   [Kremote: Comprimiendo objetos:  81% (117/144)   [Kremote: Comprimiendo objetos:  82% (119/144)   [Kremote: Comprimiendo objetos:  83% (120/144)   [Kremote: Comprimiendo objetos:  84% (121/144)   [Kremote: Comprimiendo objetos:  85% (123/144)   [Kremote: Comprimiendo objetos:  86% (124/144)   [Kremote: Comprimiendo objetos:  87% (126/144)   [Kremote: Comprimiendo objetos:  88% (127/144)   [Kremote: Comprimiendo objetos:  89% (129/144)   [Kremote: Comprimiendo objetos:  90% (130/144)   [Kremote: Comprimiendo objetos:  91% (132/144)   [Kremote: Comprimiendo objetos:  92% (133/144)   [Kremote: Comprimiendo objetos:  93% (134/144)   [Kremote: Comprimiendo objetos:  94% (136/144)   [Kremote: Comprimiendo objetos:  95% (137/144)   [Kremote: Comprimiendo objetos:  96% (139/144)   [Kremote: Comprimiendo objetos:  97% (140/144)   [Kremote: Comprimiendo objetos:  98% (142/144)   [Kremote: Comprimiendo objetos:  99% (143/144)   [Kremote: Comprimiendo objetos: 100% (144/144)   [Kremote: Comprimiendo objetos: 100% (144/144), listo.[K
+Recibiendo objetos:   0% (1/147)   Recibiendo objetos:   1% (2/147)   Recibiendo objetos:   2% (3/147)   Recibiendo objetos:   3% (5/147)   Recibiendo objetos:   4% (6/147)   Recibiendo objetos:   5% (8/147)   Recibiendo objetos:   6% (9/147)   Recibiendo objetos:   7% (11/147)   Recibiendo objetos:   8% (12/147)   Recibiendo objetos:   9% (14/147)   Recibiendo objetos:  10% (15/147)   Recibiendo objetos:  11% (17/147)   Recibiendo objetos:  12% (18/147)   Recibiendo objetos:  13% (20/147)   Recibiendo objetos:  14% (21/147)   Recibiendo objetos:  15% (23/147)   Recibiendo objetos:  16% (24/147)   Recibiendo objetos:  17% (25/147)   Recibiendo objetos:  18% (27/147)   Recibiendo objetos:  19% (28/147)   Recibiendo objetos:  20% (30/147)   Recibiendo objetos:  21% (31/147)   Recibiendo objetos:  22% (33/147)   Recibiendo objetos:  23% (34/147)   Recibiendo objetos:  24% (36/147)   Recibiendo objetos:  25% (37/147)   Recibiendo objetos:  26% (39/147)   Recibiendo objetos:  27% (40/147)   Recibiendo objetos:  28% (42/147)   Recibiendo objetos:  29% (43/147)   Recibiendo objetos:  30% (45/147)   Recibiendo objetos:  31% (46/147)   Recibiendo objetos:  32% (48/147)   Recibiendo objetos:  33% (49/147)   Recibiendo objetos:  34% (50/147)   Recibiendo objetos:  35% (52/147)   Recibiendo objetos:  36% (53/147)   Recibiendo objetos:  37% (55/147)   Recibiendo objetos:  38% (56/147)   Recibiendo objetos:  39% (58/147)   Recibiendo objetos:  40% (59/147)   Recibiendo objetos:  41% (61/147)   Recibiendo objetos:  42% (62/147)   Recibiendo objetos:  43% (64/147)   Recibiendo objetos:  44% (65/147)   Recibiendo objetos:  45% (67/147)   Recibiendo objetos:  46% (68/147)   Recibiendo objetos:  47% (70/147)   Recibiendo objetos:  48% (71/147)   Recibiendo objetos:  49% (73/147)   Recibiendo objetos:  50% (74/147)   Recibiendo objetos:  51% (75/147)   Recibiendo objetos:  52% (77/147)   Recibiendo objetos:  53% (78/147)   Recibiendo objetos:  54% (80/147)   Recibiendo objetos:  55% (81/147)   Recibiendo objetos:  56% (83/147)   Recibiendo objetos:  57% (84/147)   Recibiendo objetos:  58% (86/147)   Recibiendo objetos:  59% (87/147)   Recibiendo objetos:  60% (89/147)   Recibiendo objetos:  61% (90/147)   Recibiendo objetos:  62% (92/147)   Recibiendo objetos:  63% (93/147)   Recibiendo objetos:  64% (95/147)   Recibiendo objetos:  65% (96/147)   Recibiendo objetos:  66% (98/147)   Recibiendo objetos:  67% (99/147)   Recibiendo objetos:  68% (100/147)   remote: Total 147 (delta 52), reusado 0 (delta 0)[K
+Recibiendo objetos:  69% (102/147)   Recibiendo objetos:  70% (103/147)   Recibiendo objetos:  71% (105/147)   Recibiendo objetos:  72% (106/147)   Recibiendo objetos:  73% (108/147)   Recibiendo objetos:  74% (109/147)   Recibiendo objetos:  75% (111/147)   Recibiendo objetos:  76% (112/147)   Recibiendo objetos:  77% (114/147)   Recibiendo objetos:  78% (115/147)   Recibiendo objetos:  79% (117/147)   Recibiendo objetos:  80% (118/147)   Recibiendo objetos:  81% (120/147)   Recibiendo objetos:  82% (121/147)   Recibiendo objetos:  83% (123/147)   Recibiendo objetos:  84% (124/147)   Recibiendo objetos:  85% (125/147)   Recibiendo objetos:  86% (127/147)   Recibiendo objetos:  87% (128/147)   Recibiendo objetos:  88% (130/147)   Recibiendo objetos:  89% (131/147)   Recibiendo objetos:  90% (133/147)   Recibiendo objetos:  91% (134/147)   Recibiendo objetos:  92% (136/147)   Recibiendo objetos:  93% (137/147)   Recibiendo objetos:  94% (139/147)   Recibiendo objetos:  95% (140/147)   Recibiendo objetos:  96% (142/147)   Recibiendo objetos:  97% (143/147)   Recibiendo objetos:  98% (145/147)   Recibiendo objetos:  99% (146/147)   Recibiendo objetos: 100% (147/147)   Recibiendo objetos: 100% (147/147), 31.62 KiB | 2.87 MiB/s, listo.
+Resolviendo deltas:   0% (0/52)   Resolviendo deltas:   1% (1/52)   Resolviendo deltas:   3% (2/52)   Resolviendo deltas:   9% (5/52)   Resolviendo deltas:  42% (22/52)   Resolviendo deltas:  71% (37/52)   Resolviendo deltas: 100% (52/52)   Resolviendo deltas: 100% (52/52), completado con 1 objeto local.
+Desde /srv/git/prpa
+   0b8b800..ec25bf1  master     -> origin/master
+Actualizando 0b8b800..ec25bf1
+Fast-forward
+ .ipynb                                     | 33 [32m+++++++++++++++++++++++++++++++++[m
+ .ipynb_checkpoints/.ipynb-checkpoint       | 33 [32m+++++++++++++++++++++++++++++++++[m
+ .ipynb_checkpoints/datos-checkpoint.txt    | 22 [32m++++++++++++++++++++++[m
+ .ipynb_checkpoints/datos_06-checkpoint.txt |  0
+ datos_00.txt                               |  0
+ datos_01.txt                               |  0
+ datos_02.txt                               |  0
+ datos_03.txt               
